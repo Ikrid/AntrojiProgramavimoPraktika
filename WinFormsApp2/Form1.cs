@@ -45,7 +45,7 @@ namespace WinFormsApp2
                     .FirstOrDefault(t => t.UserName == vartotojoVardas && t.Password == vartotojoSlaptazodis);
                 if (rezultatas == null)
                 {
-                    LabelError.Text = "Tu duhas";
+                    LabelError.Text = "Klaida";
                     return;
                 }
                 switch (rezultatas.UserType)
